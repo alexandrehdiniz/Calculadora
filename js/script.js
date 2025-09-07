@@ -14,6 +14,10 @@ class Calculator {
             return;
         }
 
+        if (this.currentOperationText.innerText.length >= 10) {
+            return;
+        }
+
         this.currentOperation = digit;
         this.updateScreen();
     }
