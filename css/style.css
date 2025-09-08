@@ -108,3 +108,13 @@ body {
   background-color: var(--bg);
   color: var(--text);
 }
+
+@media (max-width: 900px) {
+  body {
+    margin-top: 6em;
+    padding: 5em;
+  }
+  #calc {
+    padding: 1em;
+  }
+}
